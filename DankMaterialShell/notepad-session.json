@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "currentTabIndex": 0,
+  "tabs": [
+    {
+      "id": 1790309710881,
+      "title": "notepad.txt",
+      "filePath": "/home/hung/Documents/notepad.txt",
+      "isTemporary": false,
+      "lastModified": "2026-10-04T12:31:21.653Z",
+      "cursorPosition": 0,
+      "scrollPosition": 0,
+      "hasUnsavedChanges": false,
+      "lastSavedContent": "sudo emerge --changed-use --update --deep @world\n\nCachyOS chroot:\nsudo mount -o subvol=/@,defaults,noatime,compress=zstd:3,commit=120,ssd,discard=async,space_cache=v2 /dev/nvme0n1p2 /mnt/linux-root\nsudo mount -o subvol=/@root,defaults,noatime,compress=zstd:3,commit=120,ssd,discard=async,space_cache=v2 /dev/nvme0n1p2 /mnt/linux-root/root\nsudo mount -o subvol=/@home,defaults,noatime,compress=zstd:3,commit=120,ssd,discard=async,space_cache=v2 /dev/nvme0n1p2 /mnt/linux-root/home\nsudo arch-chroot /mnt/linux-root\n\nUpdate Froststrap\ngit fetch --tags\ngit tag\ngit checkout <tag name>\ngit submodule update --init --recursive\ndotnet run --project build -- publish --no-installers\ncp .build/publish/Froststrap ~/.local/bin\n\nWanna test: umbriel noctalia \n\nOverlays (sudo eselect repository enable):\nCachyOS-kernels (65)\ngentoo-zh (151)\nzGentoo (459)\n\nsetup fetch unpack prepare configure compile install instprep preinst qmerge postinst"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://niri-wm.github.io/niri/Configuration:-Introduction
+
+// Import DMS configs
+include "dms/cursor.kdl"
+include "dms/outputs.kdl"
+include "dms/binds.kdl"
+include "dms/alttab.kdl"
+include "dms/colors.kdl"
+include "dms/layout.kdl"
+include "dms/windowrules.kdl"
+include "dms/wpblur.kdl"
+
+// Import my configs
+include "myconfigs/input.kdl"
+include "myconfigs/etc.kdl"
+include "myconfigs/layout.kdl"
+include "myconfigs/env.kdl"
+include "myconfigs/windowandlayerrules.kdl"
+include "myconfigs/binds.kdl"
