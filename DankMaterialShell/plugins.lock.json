@@ -1,9 +1,0 @@
-{
-  "lockfileVersion": 1,
-  "plugins": {
-    "dankAsusControlCenter": {
-      "repo": "https://github.com/shazzaam7/DankAsusControl",
-      "commit": "06548f4d09ce97b9db050f89aff8468fa893c246"
-    }
-  }
-}
