@@ -1,4 +1,4 @@
-My Niri Dotfiles
+My Niri and DankMaterialShell Dotfiles
 
 Installation: git clone this repo and copy everything in the root of the git repo and run: systemctl --user add-wants niri.service dms.service
 
